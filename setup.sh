@@ -1,0 +1,1 @@
+sudo apt update && sudo apt upgrade -y && sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y && git clone https://github.com/xmrig/xmrig.git && cd /xmrig && mkdir build && cd /build && cmake .. && make && echo "Setup is done! Now make a new screen session, then do ./xmrig -o gulf.moneroocean.stream:10128 -U <wallet address> -p <name>"
